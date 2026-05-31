@@ -1,35 +1,9 @@
 ---
 name: finance-accounting
 description: Orchestrate revenue operations — create and send invoices, track collections, manage expenses, reconcile payments, and generate financial reports (P&L, balance sheet, cash flow). Use when creating invoices, checking overdue payments, tracking revenue, reconciling transactions, generating financial reports, managing expenses, or analyzing cash flow.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-finance server connected (QuickBooks, Xero, or local ledger). Optional: mcp-payments for collection, mcp-email for invoice delivery, mcp-crm for customer context.
-allowed-tools:
-  - list_invoices
-  - get_invoice
-  - create_invoice
-  - list_expenses
-  - create_expense
-  - list_accounts
-  - get_account_balance
-  - list_transactions
-  - create_journal_entry
-  - reconcile_transaction
-  - get_profit_loss
-  - get_balance_sheet
-  - get_cashflow
-  - get_tax_summary
-tags:
-  - business
-  - finance
-  - invoicing
-  - revenue
-  - accounting
-  - collections
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
+allowed-tools: [list_invoices, get_invoice, create_invoice, list_expenses, create_expense, list_accounts, get_account_balance, list_transactions, create_journal_entry, reconcile_transaction, get_profit_loss, get_balance_sheet, get_cashflow, get_tax_summary]
 metadata:
   author: Zavora AI
   mcp-server: mcp-finance
